@@ -1,68 +1,79 @@
 # 📄 FICHE — CHOIX DU SUJET DE VEILLE
 
 ## 🧩 Sujet choisi
-**Git & GitHub**
+**Gestion des conflits dans Git & GitHub**
 
 ## 🗂️ Famille de veille correspondante
 **⚙️ Outils du développeur**  
-*(Gestion de versions, collaboration, sauvegarde du code)*
+*(Collaboration avancée, gestion de versions, travail en équipe)*
 
 ---
 
 ## 🎯 Validation du sujet
 
 ### ✔️ 1. Lien avec la formation
-Git et GitHub font partie des outils utilisés dans notre formation en développement web, notamment pour gérer les projets Laravel et React.
+Git et GitHub sont déjà utilisés dans notre formation. La gestion des conflits apparaît
+lorsque plusieurs développeurs travaillent sur le même projet, ce qui correspond
+aux projets d’équipe réalisés en formation.
 
 ### ✔️ 2. Utilité pour le métier
-Git & GitHub sont indispensables en entreprise pour travailler en équipe, suivre l’évolution du code, corriger les erreurs et collaborer sur des projets professionnels.
+En entreprise, les conflits Git sont très fréquents. Savoir les comprendre et les résoudre
+est une compétence essentielle pour travailler efficacement en équipe et éviter
+les erreurs sur le code.
 
 ### ✔️ 3. Accessible à mon niveau
-Les commandes de base de Git sont simples à apprendre, et GitHub est très bien expliqué avec beaucoup d’exemples et de tutoriels.
+Les bases de Git étant déjà acquises, il est possible d’aborder la gestion des conflits
+progressivement à travers des exemples concrets et des cas pratiques.
 
-➡️ **Conclusion : 3/3 critères validés → Sujet pertinent et validé.**
+➡️ **Conclusion : 3/3 critères validés → Sujet pertinent, avancé et validé.**
 
 ---
 
 ## 💬 Justification personnelle
-J’ai choisi **Git & GitHub** parce que ce sont des outils essentiels pour tout développeur. Ils permettent de sauvegarder le code, de revenir en arrière en cas d’erreur, et de travailler en équipe efficacement. Ce sujet est directement lié à ma formation en développement web et sera très utile dans mon futur métier.
+J’ai choisi **la gestion des conflits dans Git & GitHub** parce que c’est une problématique
+réelle rencontrée dans les projets collaboratifs. Ce sujet me permettra de mieux comprendre
+le travail en équipe, d’éviter les blocages et de résoudre correctement les conflits de code.
+Il est directement lié au contexte professionnel du développement web.
 
 ---
 
 ## 🔗 Première source fiable
-Documentation officielle Git :  
-https://git-scm.com/doc
+Documentation officielle Git – Résolution des conflits :  
+https://git-scm.com/docs/git-merge
 
 ---
 
 ## ❓ Exemple de question de veille possible
-**Comment utiliser Git et GitHub pour gérer efficacement un projet Laravel en équipe ?**
+**Comment résoudre efficacement un conflit Git lors du travail en équipe sur un projet Laravel ?**
 
 ---
 
 ## 🗂️ Mini-Veille Technologique — Résumé
 
 ### 🧩 Sujet exploré
-**Git & GitHub**
+**Gestion des conflits dans Git & GitHub**
 
 ### ❓ Découverte principale
-Git est un système de gestion de versions qui permet d’enregistrer l’historique du code, tandis que GitHub est une plateforme en ligne qui permet de stocker les projets, collaborer avec d’autres développeurs et partager le code.
+Un conflit Git se produit lorsque deux modifications incompatibles sont faites
+sur une même partie du code. Git ne peut pas décider automatiquement quelle version garder
+et demande l’intervention du développeur.
 
 ### 🛠️ Utilité dans le métier
-- Sauvegarder le code  
-- Travailler en équipe  
-- Gérer les versions d’un projet  
-- Corriger facilement les erreurs  
-- Suivre l’évolution d’un projet  
+- Travailler à plusieurs sur les mêmes fichiers  
+- Comprendre les conflits avant qu’ils bloquent un projet  
+- Corriger le code sans perdre le travail des autres  
+- Améliorer la collaboration en équipe  
 
-### 💡 Exemple simple
+### 💡 Exemple concret
 Sur un projet Laravel :
-1. J’utilise `git init` pour initialiser le projet  
-2. `git add` et `git commit` pour enregistrer mon travail  
-3. `git push` pour envoyer le projet sur GitHub  
-4. Mes coéquipiers peuvent récupérer le projet avec `git clone`
+1. Deux développeurs modifient le même fichier  
+2. Un `git pull` provoque un conflit  
+3. Git affiche les zones en conflit dans le fichier  
+4. Le développeur choisit ou fusionne les bonnes parties  
+5. Il valide la résolution avec un commit
 
 ### ✍️ Phrase de synthèse
-Git & GitHub me permettent de travailler proprement, en équipe, en toute sécurité, tout en gardant l’historique complet de mes projets.
+La gestion des conflits Git est une compétence clé pour travailler efficacement
+en équipe et garantir la stabilité d’un projet professionnel.
 
 ---
