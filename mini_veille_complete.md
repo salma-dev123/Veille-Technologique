@@ -88,7 +88,6 @@ Dans le fichier concerné, Git insère :
 - la version distante
 - des marqueurs de conflit
 
-📌 Git ne modifie jamais le code sans validation humaine.
 
 ---
 
@@ -101,7 +100,6 @@ La résolution consiste à :
 - Choisir ou combiner les solutions
 - Valider la résolution par un commit
 
-➡ La décision reste toujours humaine.
 
 ---
 
@@ -123,7 +121,6 @@ Avantages :
 - Blocage automatique du merge
 - Visualisation des conflits
 - Résolution sécurisée
-- Revue de code intégrée
 
 ---
 ## Atelier pratique
